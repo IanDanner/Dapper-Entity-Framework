@@ -1,0 +1,10 @@
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Bank Accounts\bin\Debug\netcoreapp2.0\Bank Accounts.deps.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Bank Accounts\bin\Debug\netcoreapp2.0\Bank Accounts.runtimeconfig.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Bank Accounts\bin\Debug\netcoreapp2.0\Bank Accounts.runtimeconfig.dev.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Bank Accounts\bin\Debug\netcoreapp2.0\Bank Accounts.dll
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Bank Accounts\bin\Debug\netcoreapp2.0\Bank Accounts.pdb
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Bank Accounts\obj\Debug\netcoreapp2.0\Bank Accounts.csproj.CoreCompileInputs.cache
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Bank Accounts\obj\Debug\netcoreapp2.0\Bank Accounts.AssemblyInfoInputs.cache
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Bank Accounts\obj\Debug\netcoreapp2.0\Bank Accounts.AssemblyInfo.cs
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Bank Accounts\obj\Debug\netcoreapp2.0\Bank Accounts.dll
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Bank Accounts\obj\Debug\netcoreapp2.0\Bank Accounts.pdb

@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Add Trail";
+}
+
+<div>
+    <h1>Add A New Trail</h1>
+    @model Lost_in_the_Woods.Models.Trail
+    <ul>
+    <form action="/create_trail" method="post">
+        <span asp-validation-for="Trail_name"></span>
+        <li><label asp-for="Trail_name"></label>
+        <input asp-for="Trail_name"/></li>
+        <span asp-validation-for="Description"></span>
+        <li><label asp-for="Description"></label>
+        <textarea asp-for="Description" cols="30" rows="10"></textarea></li>
+        <span asp-validation-for="Trail_length"></span>     
+        <li><label asp-for="Trail_length"></label>
+        <input asp-for="Trail_length"/> - Miles</li>
+        <span asp-validation-for="Elevation_change"></span>
+        <li><label asp-for="Elevation_change"></label>
+        <input asp-for="Elevation_change"/> - Feet</li>
+        <span asp-validation-for="Longitude"></span>
+        <li><label asp-for="Longitude"></label>
+        <input asp-for="Longitude"/> - Degrees ( - West | + East )</li>
+        <span asp-validation-for="Latitude"></span>
+        <li><label asp-for="Latitude"></label>
+        <input asp-for="Latitude"/> - Degrees ( - South | + North )</li>
+        <li><button type="submit">Create Record!</button></li>
+    </form>
+    </ul>
+</div>

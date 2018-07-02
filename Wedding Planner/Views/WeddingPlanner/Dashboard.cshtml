@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Wedding Dashboard";
+}
+
+<div>
+    <h1>Welcome to the Wedding Planner</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Wedding</th>
+                <th>Date</th>
+                <th>Guest</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(Wedding wedding in ViewBag.Weddings)
+            {
+                <tr>
+                    <td><a href="/wedding/@wedding.id">@wedding.bride & @wedding.groom</a></td>
+                    <td>@wedding.date_of_wedding.ToString("MMM dd yyyy")</td>
+                    <td>@wedding.Guests.Count</td>
+                    <td>
+                    @if(wedding.userId == ViewBag.Logged.id)
+                    {
+                        <a href="/delete_wedding/@wedding.id">Delete</a>
+                    }
+                    else
+                    {
+                        bool isGoing = false;
+                        foreach (Guest guest in wedding.Guests)
+                        {
+                            if(guest.usersId == ViewBag.Logged.id)
+                            {
+                                isGoing = true;
+                            }
+                        }
+                        if(isGoing == true)
+                        {
+                            <a href="/leave_wedding/@wedding.id">Un-RSVP</a>
+                        }
+                        if(isGoing == false)
+                        {
+                            <a href="/join_wedding/@wedding.id">RSVP</a>
+                        }
+                    }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

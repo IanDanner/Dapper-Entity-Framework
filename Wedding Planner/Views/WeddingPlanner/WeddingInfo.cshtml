@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Wedding Info";
+}
+
+<div>
+    <h1>@ViewBag.Wedding.bride 's and @ViewBag.Wedding.groom 's Wedding</h1>
+    <div class="weddingInfo">
+        <h3>Date of Wedding: @ViewBag.Wedding.date_of_wedding.ToString("MMM dd yyyy")</h3>
+        <h3>Guests:</h3>
+        <ul style="text-align: left">
+            @foreach(var guest in ViewBag.Wedding.Guests)
+            {
+                <li>@guest.users.firstName @guest.users.lastName</li>
+            }
+        </ul>
+    </div>
+    <div class="weddingPlace">
+        <h4>Location of Wedding: @ViewBag.Wedding.weddingLocation</h4>
+        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=@ViewBag.Wedding.weddingLocation&key=@ViewBag.stuff" allowfullscreen></iframe>
+    </div>
+</div>

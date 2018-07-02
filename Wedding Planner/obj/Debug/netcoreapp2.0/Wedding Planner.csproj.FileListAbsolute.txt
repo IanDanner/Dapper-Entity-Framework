@@ -1,0 +1,10 @@
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Wedding Planner\bin\Debug\netcoreapp2.0\Wedding Planner.deps.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Wedding Planner\bin\Debug\netcoreapp2.0\Wedding Planner.runtimeconfig.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Wedding Planner\bin\Debug\netcoreapp2.0\Wedding Planner.runtimeconfig.dev.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Wedding Planner\bin\Debug\netcoreapp2.0\Wedding Planner.dll
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Wedding Planner\bin\Debug\netcoreapp2.0\Wedding Planner.pdb
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Wedding Planner\obj\Debug\netcoreapp2.0\Wedding Planner.csproj.CoreCompileInputs.cache
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Wedding Planner\obj\Debug\netcoreapp2.0\Wedding Planner.AssemblyInfoInputs.cache
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Wedding Planner\obj\Debug\netcoreapp2.0\Wedding Planner.AssemblyInfo.cs
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Wedding Planner\obj\Debug\netcoreapp2.0\Wedding Planner.dll
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\Dapper & Entity Framework\Wedding Planner\obj\Debug\netcoreapp2.0\Wedding Planner.pdb

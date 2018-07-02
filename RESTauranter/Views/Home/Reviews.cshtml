@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Reviews";
+}
+
+<div>
+    @if(ViewBag.reviews.Count != 0)
+    {
+        @foreach(var review in ViewBag.reviews)
+        {
+            <div class="review">
+                <h3>Review for: @review.restaurant  @review.stars Star</h3>
+                <h4>Reviewer: @review.reviewer , @String.Format("{0:dddd, MMMM d, yyyy}", review.date_of_visit)</h4>
+                <p>@review.review</p>
+            </div>
+        }
+    }
+</div>
+

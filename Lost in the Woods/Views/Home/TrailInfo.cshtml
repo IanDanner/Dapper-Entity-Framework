@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Trail Info";
+}
+
+<div>
+    <h1>@ViewBag.trail.Trail_name</h1>
+    <h3>Description</h3>
+    <p>@ViewBag.trail.Description</p>
+    <h3>Trail Length</h3>
+    <p>@ViewBag.trail.Trail_length Miles</p>
+    <h3>Elevation Change</h3>
+    <p>@ViewBag.trail.Elevation_change Feet</p>
+    <h3>Location</h3>
+    <p>Longitude - @ViewBag.trail.Longitude</p>
+    <p>Latitude - @ViewBag.trail.Latitude</p>
+</div>
